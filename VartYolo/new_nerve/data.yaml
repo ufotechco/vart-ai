@@ -1,0 +1,13 @@
+train: /home/audacia/yolov5/new_nerve/train/images
+val: /home/audacia/yolov5/new_nerve/valid/images
+test: /home/audacia/yolov5/new_nerve/test/images
+
+nc: 1
+names: ['optic-nerve']
+
+roboflow:
+  workspace: steffen-cantillo-kyrgy
+  project: vessel_nerve
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/steffen-cantillo-kyrgy/vessel_nerve/dataset/4
